@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:textSize="20sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbol: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumber" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSymbol" />
+
+    <TextView
+        android:id="@+id/tvMass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mass: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvElectronConfiguration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electron Configuration: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMass" />
+
+    <TextView
+        android:id="@+id/tvElectronNegativity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electron Negativity: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvElectronConfiguration" />
+
+    <TextView
+        android:id="@+id/tvRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radius: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvElectronNegativity" />
+
+    <TextView
+        android:id="@+id/tvIonRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ion Radius: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRadius" />
+
+    <TextView
+        android:id="@+id/tvVanDelWaalsRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Van Del Waals Radius: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIonRadius" />
+
+    <TextView
+        android:id="@+id/tvIonizationEnergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ionization Energy: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVanDelWaalsRadius" />
+
+    <TextView
+        android:id="@+id/tvElectronAffinity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electron Affinity: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIonizationEnergy" />
+
+    <TextView
+        android:id="@+id/tvOxidationStates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oxidation States: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvElectronAffinity" />
+
+    <TextView
+        android:id="@+id/tvStandardState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standard State: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOxidationStates" />
+
+    <TextView
+        android:id="@+id/tvBondingType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonding Type:  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStandardState" />
+
+    <TextView
+        android:id="@+id/tvMeltingPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Melting Point: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBondingType" />
+
+    <TextView
+        android:id="@+id/tvBoilingPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boiling Point: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMeltingPoint" />
+
+    <TextView
+        android:id="@+id/tvDensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Density: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBoilingPoint" />
+
+    <TextView
+        android:id="@+id/tvFamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDensity" />
+
+    <TextView
+        android:id="@+id/tvYearDiscovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year Discovered: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFamily" />
+
+    <ImageView
+        android:id="@+id/imageWikipedia"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvYearDiscovered"
+        app:layout_constraintVertical_bias="0.10"
+        app:srcCompat="@drawable/image_wikipedia" />
+
+    <TextView
+        android:id="@+id/textViewWikipedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Click the image for Wikipedia reference"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageWikipedia"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWikipedia"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuItemNoFilter"
+            app:showAsAction="never"
+            android:title="No Filter"
+            android:checked="true"/>
+        <item
+            android:id="@+id/menuItemSolid"
+            app:showAsAction="never"
+            android:title="Solid" />
+        <item
+            android:id="@+id/menuItemLiquid"
+            app:showAsAction="never"
+            android:title="Liquid" />
+        <item
+            android:id="@+id/menuItemGas"
+            app:showAsAction="never"
+            android:title="Gas" />
+        <item
+            android:id="@+id/menuItemSynthetic"
+            app:showAsAction="never"
+            android:title="Synthetic" />
+    </group>
+</menu>
